@@ -11,7 +11,9 @@ const Services = () => {
         <h1 className="text-center text-4xl py-10 mt-20 font-extrabold text-[#404040]">
           یک اپلیکیشن، برای تمام نیازها
         </h1>
-        <div className="grid grid-cols-3 mx-[20%]">{serviceItems}</div>
+        <div className="grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 mx-[20%]">
+          {serviceItems}
+        </div>
       </div>
     </section>
   );
