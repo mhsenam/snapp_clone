@@ -1,6 +1,6 @@
 const Downloads = () => {
   return (
-    <section>
+    <section className="sm:hidden md:block mb-20">
       <div className="flex flex-row justify-center space-x-16 items-center mt-20">
         <a href="">
           <img
